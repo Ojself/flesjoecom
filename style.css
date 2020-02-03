@@ -1,0 +1,142 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.icons-social i {
+  font-size: 2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+main > .avatar > a > img {
+  border-radius: 50%;
+  width: 8rem;
+}
+
+main > .intro {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 3.75em;
+  font-weight: 600;
+}
+
+main > .tagline {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
+}
+
+main > hr {
+  width: 30%;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0.5rem auto;
+}
+
+.links {
+  margin: 2rem auto;
+}
+
+.icons-social i {
+  padding: 10px;
+}
+
+.devto {
+  margin-bottom: -0.2rem;
+}
+
+.devto svg {
+  margin-bottom: -0.2rem;
+  margin-left: 0.675rem;
+  width: 2.65rem;
+  height: 2.65rem;
+}
+
+/* art by Albulena Panduri */
+html {
+  background: black;
+  background-image: url('./public/universe.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+main {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fafafa;
+}
+
+.links a {
+  margin: 0 0.5rem;
+  padding: 0.625em 1.25rem;
+
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+
+  font-size: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  letter-spacing: 1px;
+
+  color: #fafafa;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.links a:hover {
+  color: tomato;
+  border: 2px solid tomato;
+}
+
+.icons-social a {
+  color: #fafafa;
+  transition: all 0.2s;
+}
+
+.icons-social a:hover {
+  color: tomato;
+}
+
+main > .avatar img {
+  border: 3px solid #dadada;
+  transition: all 0.2s ease-in-out;
+}
+
+main > .avatar img:hover {
+  transform: scale(1.2);
+}
