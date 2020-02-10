@@ -90,7 +90,7 @@ main > hr {
 /* art by Albulena Panduri */
 html {
   background: black;
-  background-image: url('./public/universe.jpg');
+  background-image: url('../public/universe.jpg');
   background-size: cover;
   background-position: center center;
 }
