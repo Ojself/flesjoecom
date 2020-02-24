@@ -31,7 +31,7 @@ body {
   }
   
 }
-@media (max-width: 400px) { 
+@media (max-width: 500px) { 
   html {
     font-size: 20px;
   } 
@@ -39,8 +39,6 @@ body {
     display: none !important;
   }
 }
-
-
 
 .icons-social i {
   font-size: 2em;
